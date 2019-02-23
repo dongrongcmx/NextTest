@@ -1,4 +1,5 @@
 export const actionTypes = {
-  //前台
-  SEARCH_DATA: 'SEARCH_DATA'
+  //获取
+  changeActiveCheckData: 'changeActiveCheckData',
+  checkArrChange: 'checkArrChange'
 }
