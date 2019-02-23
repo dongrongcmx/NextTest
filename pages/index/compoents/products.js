@@ -16,7 +16,7 @@ import Pickter from "./pickter";
 
 import ReactDOM from 'react-dom';
 
-import { getProductData } from "../../../services1/dataService";
+import { getProductData } from "../../../services/dataService";
 
 class Products extends Component {
   state={

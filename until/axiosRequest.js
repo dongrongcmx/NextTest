@@ -11,7 +11,7 @@ import axios from 'axios';
 import store from 'store2';
 
 import { showFailToast } from '../components/commons/Toast';
-import serviceAddress from '../services1/config/serverAddress';
+import serviceAddress from '../services/config/serverAddress';
 // import { history } from '../router';
 
 const hostName = serviceAddress.serviceIp; // 服务器地址

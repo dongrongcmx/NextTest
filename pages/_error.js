@@ -4,7 +4,7 @@ import Link from 'next/link';
 import {
   Layout
 } from 'antd'
-import {COMMON_TITLE, MY_BLOG} from '../config/constantsData';
+
 const {Content} = Layout;
 class Error extends Component {
   static getInitialProps({ res, err }) {
@@ -20,7 +20,7 @@ class Error extends Component {
     return (
       <div>
         <Head>
-          <title>error-{COMMON_TITLE}</title>
+          <title>error-</title>
         </Head>
         <Layout>
           <Content style={{padding: '0 50px'}}>
@@ -32,7 +32,7 @@ class Error extends Component {
                   <div>
                     An error {this.props.statusCode} occurred on server
                     <p>
-                      <Link href={MY_BLOG}>
+                      <Link>
                         <a>返回首页</a>
                       </Link>
                     </p>

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { serviceIp } from '../../../services1/config/serverAddress'
+import { serviceIp } from '../../../services/config/serverAddress'
 import ReactDOM from 'react-dom';
 
 class ProductItem extends Component {

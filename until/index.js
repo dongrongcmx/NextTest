@@ -1,5 +1,17 @@
 import timeago from 'timeago.js';
-import {COLORS_ARR}  from '../config/constantsData';
+const COLORS_ARR = [
+  '#FF5F57',
+  '#FFBD2E',
+  '#28CA42',
+  '#941966',
+  '#1c2c36',
+  '#2982ff',
+  '#e0f0d8',
+  '#0098c8',
+  '#ba2d2a',
+  '#de3803',
+]
+
 import {getIPs} from 'real-ip';
 let format = require('date-format');
 export const updateHtml = str => {

@@ -10,7 +10,7 @@
 import React, { Component } from "react";
 import { Header, Banner, Products, Footer } from "./compoents";
 
-import { getProductData } from "../../services1/dataService";
+import { getProductData } from "../../services/dataService";
 
 import './index.less'
 
