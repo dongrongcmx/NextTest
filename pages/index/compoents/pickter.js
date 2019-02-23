@@ -2,7 +2,7 @@
  * @Author: chengmx 
  * @Date: 2019-02-20 16:20:52 
  * @Last Modified by: chengmx
- * @Last Modified time: 2019-02-23 14:55:51
+ * @Last Modified time: 2019-02-23 15:39:26
  * 
  * 商品显示
  */
@@ -27,7 +27,7 @@ class Pickter extends Component {
 
   onShowCheck = name => {
 
-    if (name == this.state.name || this.state.name == '') {
+    if (name == this.state.name || !this.state.isShowCheck || this.state.name == '') {
       this.setState(preState => ({
         isShowCheck:!preState.isShowCheck
       }))

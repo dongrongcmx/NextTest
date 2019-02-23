@@ -2,7 +2,7 @@
  * @Author: chengmx 
  * @Date: 2019-02-20 16:20:24 
  * @Last Modified by: chengmx
- * @Last Modified time: 2019-02-20 16:20:46
+ * @Last Modified time: 2019-02-23 15:42:54
  * 
  * banner展示
  */
@@ -14,7 +14,7 @@ class Banner extends Component {
   render() {
     return (
       <div>
-        <img src={'https://df5apg8r0m634.cloudfront.net/zt/banner/3454/gpa5hsoo7W.jpg'}></img>
+        <img src={'/static/images/gpa5hsoo7W.jpg'}></img>
       </div>
     )
   }
