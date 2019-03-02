@@ -31,6 +31,7 @@
     "date-format": "^1.2.0",
     "dns": "^0.2.2",
     "draft-js": "^0.10.5",
+    "dva-no-router": "^1.2.1",
     "express": "^4.16.3",
     "glamor": "^2.20.40",
     "glamorous": "^5.0.0",

@@ -1,7 +1,8 @@
 import App, {Container} from 'next/app'
 import React from 'react'
 import {withRouter} from 'next/router'
-import withReduxStore from '../lib/with-redux-store'
+// import withReduxStore from '../lib/with-redux-store'
+import AppWithRedux from '../until/store'
 import {Provider} from 'react-redux'
 import 'babel-polyfill'
 import '../asserts/styles.less'
@@ -98,4 +99,5 @@ li{
   }
 }
 
-export default withReduxStore(withRouter(MyApp))
+export default AppWithRedux(withRouter(MyApp))
+// export default withReduxStore(withRouter(MyApp))
